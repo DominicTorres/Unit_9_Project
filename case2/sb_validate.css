@@ -14,3 +14,19 @@
 
 /* Validation Styles */
 
+input:focus{
+   background-color: rgb(255, 218, 165);
+}
+
+input:focus:valid{
+   display: rgb(215, 255, 215) url(sb_valid.png) no-repeat right;
+}
+
+input:focus:invalid{
+   display: rgb(255, 245, 215) url(sb_invalid.png) no-repeat right;
+}
+
+
+
+
+
